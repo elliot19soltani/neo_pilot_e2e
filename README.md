@@ -27,9 +27,11 @@ This repository is connected to my bachelor thesis:
 **Small-Scale Autonomous Car: Design, Implementation, and Remote Monitoring**
 
 The thesis investigates the design of a complete autonomous navigation system, from hardware selection and vehicle assembly to software implementation, perception, control, data collection, model training, deployment, and testing.
-The original thesis document is written in Persian, but this README provides an English summary of the project, methods, and implementation.
 
-**Thesis link (in Persian):** https://drive.google.com/file/d/10g1P8eSv3FrCk3JIBJOiu4PbZ1zDiE7U
+The original thesis document is written in Persian. This README provides an English technical summary of the project, methods, implementation, and results.
+
+**Thesis PDF (Persian):** https://drive.google.com/file/d/10g1P8eSv3FrCk3JIBJOiu4PbZ1zDiE7U
+
 
 ## System Architecture
 
@@ -109,8 +111,11 @@ The autonomous car platform used several embedded and sensing components, includ
 <img src="./imgs/hardware_components/battery_.png" width="500px">
 
 
-- Custom small-scale vehicle chassis
+- Custom small-scale vehicle chassis.
 
+**Picutres of the final prototype:**
+
+<img src="./imgs/vehicle_prototype.png" width="400px">
 
 
 ## Software
@@ -210,7 +215,7 @@ A web-based command center was developed to monitor the vehicle during operation
 The trained and implemented navigation system was deployed on the Jetson Nano and tested on a designed physical test track.
 
 
-**A pictures of the test track:**
+**A picture of the test track:**
 
 <img src="./imgs/test_tracks.png" width="400px">
 
@@ -230,13 +235,7 @@ The deployment process included:
 <img src="./imgs/inference_examples.png" width="600px">
 
 
-## Other Visuals
-
-### Vehicle Prototype
-
-<img src="./imgs/vehicle_prototype.png" width="400px">
-
-### Demo, Test on the test track:
+### Demo: Test on the Physical Track
 
 <img src="./imgs/demo0_e2e.gif" width="400px">
 
@@ -244,6 +243,9 @@ The deployment process included:
 ## Project Status
 
 The project successfully implemented a complete small-scale autonomous vehicle prototype, including perception, control, embedded deployment, and remote monitoring. The system was tested on a physical track with reduced human intervention.
+
+The system was tested on a physical track under controlled conditions.
+
 
 ## Keywords
 
